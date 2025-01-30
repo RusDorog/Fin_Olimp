@@ -1,0 +1,83 @@
+.intro {
+  min-height: 100vh;
+  background: url(../images/buh-uslug2i.jpg)center/contain no-repeat;
+  background-size: cover;
+  border-radius: 0 0 40px 40px;
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 634px;
+  position: absolute;
+  top: 136px;
+  left: 320px;
+}
+
+.intro__title {
+  text-align: start;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--white);
+  margin-bottom: 45px;
+}
+.intro__subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  color: var(--white);
+  margin-bottom: 45px;
+}
+
+.search-form__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: 0;
+}
+
+.search-form__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-form__field {
+  width: 194px;
+  border: 0;
+  margin-right: 20px;
+  padding: 20px 45px;
+  color: #111;
+  background-color: #fff;
+  border-radius: 60px;
+  font-style: 18px;
+}
+
+.search-form__submit {
+  padding: 20px 45px;
+  border-radius: 60px;
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  color: var(--white);
+  background-color: var(--brown);
+}
+
+.search-form__submit:hover {
+  color: var(--white);
+  background-color: #a97957;
+}
+
+.intro__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  color: var(--white);
+}
+
+.intro__link-text {
+  color: var(--brown);
+  padding-left: 8px;
+}
