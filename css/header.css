@@ -20,7 +20,7 @@
 }
 
 .header__item {
-  margin-right: 80px;
+  margin-right: 130px;
 }
 
 .header__item:last-child {
@@ -29,14 +29,14 @@
 
 .header__link {
   font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 165%;
-  color: var(--white);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--yellow);
+  opacity: 0.5;
 }
 
 .header__link:hover {
-  color: var(--brown);
+  color: var(--may-color);
   transform: scale(1.1);
 }
 
@@ -44,7 +44,7 @@
   content: "";
   display: block;
   width: 100%;
-  background-color: var(--brown);
+  background-color: var(--may-color);
   height: 1px;
   transition: all 0.3s;
   transform: scale(0);
