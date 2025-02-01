@@ -2,6 +2,7 @@
   min-height: 100vh;
   background: url(../images/bg_imoge.png)center/contain no-repeat;
   background-size: cover;
+  margin-bottom: 57px;
 }
 
 .intro__container {
@@ -63,7 +64,7 @@
 
 .search-form__submit:hover {
   color: var(--may-color);
-  background-color: var(--white);
+  background-color: var(--yellow);
 }
 
 .intro__link {

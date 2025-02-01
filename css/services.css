@@ -1,0 +1,53 @@
+.services {
+  background: #1f1e1b,
+    linear-gradient(163deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.services__container {
+}
+
+.services__title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--yellow);
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.services__text {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  color: var(--yellow);
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.services__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  gap: 30px;
+  padding-bottom: 85px;
+}
+
+.services__card-link {
+
+}
+
+.services__card {
+  /* background-image: url(../images/accountant.jpg);
+  background-size: cover;
+  min-height: 386px;
+  border-radius: 3px; */
+}
+
+.services__subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--yellow);
+  text-align: center;
+  margin-bottom: 20px;
+}
