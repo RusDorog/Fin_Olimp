@@ -28,7 +28,7 @@
               <a href="./services.html" class="header__link">Услуги</a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">Наша команда</a>
+              <a href="./team.html" class="header__link">Наша команда</a>
             </li>
           </ul>
         </nav>
@@ -48,7 +48,7 @@
               <a href="#" class="header__link">Акции</a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">Контакты</a>
+              <a href="./contact.html" class="header__link">Контакты</a>
             </li>
             <li class="header__item">
               <a href="#" class="header__link">Отзывы</a>
@@ -308,6 +308,28 @@
           </div>
         </div>
       </section>
+
+      <section class="consultation">
+        <div class="container consultation__container">
+          <h2 class="consultation__subtitle">Давайте обсудим ваш проект</h2>
+          <form class="consultation__form" action="" method="post">
+            <label class="consultation__label">
+                <input class="consultation__input" required name="bio" type="text" placeholder="Введите ваше ФИО">
+            </label>
+
+            <label class="consultation__label consultation__label_last">
+                <input class="consultation__input" required name="tel" type="tel" placeholder="Введите ваш номер телефона">
+            </label>
+
+            <input class="consultation__order" type="hidden" name="order">
+
+            <button class="consultation__button">Отправить заявку</button>
+        </form>
+        <div class="consultation-intro__link-info">
+          <a href="./policy.html" class="intro__link">Нажимая на кнопку,<span class="intro__link-text">Вы соглашаетесь с политикой обработки персональных данных.</span></a>
+        </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -486,5 +508,37 @@
         </div>
       </div>
     </footer>
+
+        <!-- Start Модальное окно -->
+        <!-- <div class="overlay overlay_order">
+          <div class="modal">
+              <button class="modal__close">
+                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_134_2)">
+                      <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="currentColor"/>
+                      </g>
+                  </svg>
+              </button>
+  
+              <h2 class="modal__title">Оформить заказ</h2>
+  
+              <form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                  <label class="modal__label">
+                      <span class="madal__label-text">ФИО</span>
+                      <input class="modal__input" required name="bio" type="text" placeholder="Введите ваше ФИО">
+                  </label>
+  
+                  <label class="modal__label modal__label_last">
+                      <span class="madal__label-text">Телефон</span>
+                      <input class="modal__input" required name="tel" type="tel" placeholder="Введите ваш номер телефона">
+                  </label>
+  
+                  <input class="modal__order" type="hidden" name="order">
+  
+                  <button class="modal__button">Заказать звонок</button>
+              </form>
+          </div>
+      </div> -->
+      <!-- End Модальное окно -->
   </body>
 </html>

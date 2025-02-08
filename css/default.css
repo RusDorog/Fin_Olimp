@@ -75,10 +75,10 @@ html {
   Доступно скрываю элементы
   */
   
-  .visually-hidden {
+  /* .visually-hidden {
     position: fixed;
     transform: scale(0);
-  }
+  } */
   .container {
     max-width: 1240px;
     padding: 0 30px;

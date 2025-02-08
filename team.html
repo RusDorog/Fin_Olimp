@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ФинОлимп</title>
+    <style>
+      :root {
+        --may-color: #6495ed;
+        --dark: #104257;
+        --yellow: #fcffd4;
+        --black: #423805;
+        --font-family: "PT Serif", sans-serif;
+        --second-family: "Roboto", sans-serif;
+      }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+          <nav class="header__navigation">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="./index.html" class="header__link">Главная</a>
+              </li>
+              <li class="header__item">
+                <a href="./services.html" class="header__link">Услуги</a>
+              </li>
+              <li class="header__item">
+                <a href="./team.html" class="header__link">Наша команда</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="header__logp">
+            <a href="./index.html" class="header__logo-link">
+              <img
+                src="./images/Mauntin_svg.svg"
+                alt="Логотип компонии ФинОлимп"
+              />
+            </a>
+          </div>
+  
+          <nav class="header__navigation">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link">Акции</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Контакты</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="team">
+          <div class="wrap__team">
+            <div class="team__baner">
+              <img class="team__images" src="./images/consultation.jpg" alt="Молодая девушка работает у окна на фоне гор">
+            </div>
+            <div class="team__form">
+              <h1 class="team__subtitle">Мы создаёь лучший сервис для бизнеса</h1>
+              <p class="team__sbt">и знаем каждый шаг и процесс в бухгалтерском учёте</p>
+              <p class="team__text">Оставте заявку и мы обязательно вам перезвоним</p>
+              <div class="content__form">
+                <form class="team__form-label" action="" method="post">
+                  <label class="team__label">
+                      <input class="team__input" required name="bio" type="text" placeholder="Введите ваше ФИО">
+                  </label>
+      
+                  <label class="team__label team__label_last">
+                      <input class="team__input" required name="tel" type="tel" placeholder="Введите ваш номер телефона">
+                  </label>
+      
+                  <input class="team__order" type="hidden" name="order">
+      
+                  <button class="team__button">Позвоните нам</button>
+              </form>
+              <div class="team-intro__link-info">
+                <a href="./policy.html" class="intro__link">Нажимая на кнопку,<span class="intro__link-text">Вы соглашаетесь с политикой обработки персональных данных.</span></a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+</body>
+</html>

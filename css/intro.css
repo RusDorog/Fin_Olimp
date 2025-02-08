@@ -16,14 +16,14 @@
 
 .intro__title {
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 700;
   font-size: 50px;
   color: var(--yellow);
   margin-bottom: 43px;
 }
 .intro__subtitle {
   font-family: var(--font-family);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   text-align: left;
   color: var(--yellow);

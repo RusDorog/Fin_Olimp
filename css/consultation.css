@@ -1,0 +1,56 @@
+.consultation {
+  min-height: 50vh;
+  padding: 0 20px;
+  background: rgba(0, 0, 0, 0.5) url(../images/buh-uslug2i.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.consultation__container {
+  max-width: 760px;
+}
+
+.consultation__subtitle {
+  padding-top: 45px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--yellow);
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.consultation__form {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.consultation__label {
+  display: block;
+  position: relative;
+}
+
+.consultation__input {
+  width: 100%;
+  font-size: 18px;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: 0.72px;
+  padding: 20px 45px;
+  border-radius: 60px;
+  border: none;
+}
+
+.consultation__button {
+  padding: 20px 45px;
+  border-radius: 60px;
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  color: var(--white);
+  background-color: var(--may-color);
+}
+
+.consultation-intro__link-info {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 45px;
+}
